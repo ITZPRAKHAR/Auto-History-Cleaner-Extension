@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Auto History Cleaner</title>
+  <style>
+    body { font-family: Arial, sans-serif; padding: 10px; width: 250px; }
+    input { width: 140px; padding: 5px; }
+    button { padding: 5px 8px; margin-left: 5px; }
+    ul { margin-top: 15px; padding-left: 15px; }
+    li { margin-bottom: 6px; }
+    .remove { margin-left: 10px; color: red; cursor: pointer; }
+  </style>
+</head>
+<body>
+  <h3>Blocked Sites</h3>
+  <input type="text" id="siteInput" placeholder="example.com">
+  <button id="addBtn">Add</button>
+  <ul id="siteList"></ul>
+
+  <script src="popup.js"></script>
+</body>
+</html>

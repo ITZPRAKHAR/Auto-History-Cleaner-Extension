@@ -1,9 +1,17 @@
 {
   "manifest_version": 3,
-  "name": "Auto History Cleaner v2",
-  "version": "1.2",
-  "description": "Auto-removes history for specific websites when you leave them.",
-  "permissions": ["history", "tabs", "alarms"],
+  "name": "Auto History Cleaner",
+  "version": "2.0",
+  "description": "Removes history of specific websites after closing their tabs.",
+  "permissions": ["history", "tabs", "storage", "alarms"],
   "background": { "service_worker": "background.js" },
-  "icons": { "128": "icon.png" }
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "128": "icon.png"
+    }
+  },
+  "icons": {
+    "128": "icon.png"
+  }
 }
