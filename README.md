@@ -34,26 +34,6 @@ Since this extension isn’t on the Chrome Web Store yet, you can install it man
 
 ## 📸 Screenshots
 
-<!-- 1 - Go to Extension Page 
-![alt text](screenshots/image.png)
-
-2 - Enable Developer Mode
-![alt text](screenshots/image-1.png)
-
-3 - Click on Load Unpacked 
-![alt text](screenshots/image-2.png)
-
-4 - Select the folder
-![alt text](screenshots/image-3.png) 
-
-5 - Now you will be able to see the extension
-![alt text](screenshots/image-4.png)
-
-6 - Now on top Right Click on the extension icon and Click on the our extension
-![alt text](screenshots/image-5.png) -->
-
-## 📸 Screenshots
-
 ### 1. Go to Extension Page  
 <img src="screenshots/image.png" alt="Extension Page" width="600"/>
 
