@@ -76,3 +76,7 @@ chrome.alarms.onAlarm.addListener(async (alarm) => {
     }
   }
 });
+
+// CREATED WITH ❤️ BY PRAKHAR SINGH
+// GITHUB: https://github.com/ITZPRAKHAR
+// DATE - 25 JULY 2025
