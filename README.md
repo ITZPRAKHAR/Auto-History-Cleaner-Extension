@@ -32,26 +32,56 @@ Since this extension isn’t on the Chrome Web Store yet, you can install it man
 
 ---
 
-## 📸 Screenshots (Optional)
+## 📸 Screenshots
 
-_Add screenshots here for better clarity._
-1 - Go to Extension Page 
-![alt text](image.png)
+<!-- 1 - Go to Extension Page 
+![alt text](screenshots/image.png)
 
 2 - Enable Developer Mode
-![alt text](image-1.png)
+![alt text](screenshots/image-1.png)
 
 3 - Click on Load Unpacked 
-![alt text](image-2.png)
+![alt text](screenshots/image-2.png)
 
 4 - Select the folder
-![alt text](image-3.png) 
+![alt text](screenshots/image-3.png) 
 
 5 - Now you will be able to see the extension
-![alt text](image-4.png)
+![alt text](screenshots/image-4.png)
 
 6 - Now on top Right Click on the extension icon and Click on the our extension
-![alt text](image-5.png)
+![alt text](screenshots/image-5.png) -->
+
+## 📸 Screenshots
+
+### 1. Go to Extension Page  
+<img src="screenshots/image.png" alt="Extension Page" width="600"/>
+
+---
+
+### 2. Enable Developer Mode  
+<img src="screenshots/image-1.png" alt="Enable Developer Mode" width="600"/>
+
+---
+
+### 3. Click on Load Unpacked  
+<img src="screenshots/image-2.png" alt="Load Unpacked" width="600"/>
+
+---
+
+### 4. Select the Folder  
+<img src="screenshots/image-3.png" alt="Select Folder" width="600"/>
+
+---
+
+### 5. Extension Appears in List  
+<img src="screenshots/image-4.png" alt="Extension Loaded" width="600"/>
+
+---
+
+### 6. Open the Extension from Toolbar  
+<img src="screenshots/image-5.png" alt="Open Extension" width="600"/>
+
 
 ---
 
