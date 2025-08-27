@@ -35,6 +35,23 @@ Since this extension isn’t on the Chrome Web Store yet, you can install it man
 ## 📸 Screenshots (Optional)
 
 _Add screenshots here for better clarity._
+1 - Go to Extension Page 
+![alt text](image.png)
+
+2 - Enable Developer Mode
+![alt text](image-1.png)
+
+3 - Click on Load Unpacked 
+![alt text](image-2.png)
+
+4 - Select the folder
+![alt text](image-3.png) 
+
+5 - Now you will be able to see the extension
+![alt text](image-4.png)
+
+6 - Now on top Right Click on the extension icon and Click on the our extension
+![alt text](image-5.png)
 
 ---
 
