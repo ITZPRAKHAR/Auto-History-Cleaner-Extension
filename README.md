@@ -1,6 +1,3 @@
-# About
-Extension that automatically clears the History of specific websites and its sub paths from your browser
-
 
 ---
 
@@ -14,6 +11,7 @@ Since this extension isn’t on the Chrome Web Store yet, you can install it man
 2. **Open Extensions page**  
    - In Chrome: go to `chrome://extensions/`  
    - In Edge: go to `edge://extensions/`
+   - In Brave: go to `brave://extensions/`
 
 3. **Enable Developer Mode**  
    - Toggle the switch on the top-right corner.
@@ -30,8 +28,7 @@ Since this extension isn’t on the Chrome Web Store yet, you can install it man
 ## 🛠️ Development Notes
 
 - If you make changes to the code, just click **Reload** on the extension card in `chrome://extensions/`.
-- External CSS is linked through `style.css` for the popup.  
-- For styling web pages, CSS is injected using `content.css` declared in `manifest.json`.
+- External CSS is linked through `style.css` for the popup. 
 
 ---
 
@@ -41,8 +38,3 @@ _Add screenshots here for better clarity._
 
 ---
 
-## 📜 License
-
-MIT License (or whichever license you prefer)
-
----
