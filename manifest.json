@@ -1,0 +1,9 @@
+{
+  "manifest_version": 3,
+  "name": "Auto History Cleaner v2",
+  "version": "1.2",
+  "description": "Auto-removes history for specific websites when you leave them.",
+  "permissions": ["history", "tabs", "alarms"],
+  "background": { "service_worker": "background.js" },
+  "icons": { "128": "icon.png" }
+}
