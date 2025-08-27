@@ -3,13 +3,13 @@ const addBtn = document.getElementById("addBtn");
 const siteList = document.getElementById("siteList");
 
 function renderList(sites) {
-  siteList.innerHTML = "";
-  sites.forEach((site, index) => {
-    const li = document.createElement("li");
-    li.textContent = site;
+    siteList.innerHTML = "";
+    sites.forEach((site, index) => {
+        const li = document.createElement("li");
+        li.textContent = site;
 
-    const remove = document.createElement("span");
-    remove.innerHTML = `
+        const remove = document.createElement("span");
+        remove.innerHTML = `
       <svg xmlns="http://www.w3.org/2000/svg" 
            width="16" height="16" fill="currentColor" 
            viewBox="0 0 16 16">
@@ -27,35 +27,35 @@ function renderList(sites) {
                  4H4.118zM2.5 3V2h11v1h-11z"/>
       </svg>
     `;
-    remove.className = "remove";
-    remove.title = "Remove site";
-    remove.onclick = () => {
-      sites.splice(index, 1);
-      chrome.storage.local.set({ blockedSites: sites }, () => {
-        renderList(sites);
-      });
-    };
+        remove.className = "remove";
+        remove.title = "Remove site";
+        remove.onclick = () => {
+            sites.splice(index, 1);
+            chrome.storage.local.set({ blockedSites: sites }, () => {
+                renderList(sites);
+            });
+        };
 
-    li.appendChild(remove);
-    siteList.appendChild(li);
-  });
+        li.appendChild(remove);
+        siteList.appendChild(li);
+    });
 }
 
 addBtn.onclick = () => {
-  const site = siteInput.value.trim();
-  if (!site) return;
+    const site = siteInput.value.trim();
+    if (!site) return;
 
-  chrome.storage.local.get({ blockedSites: [] }, (data) => {
-    if (!data.blockedSites.includes(site)) {
-      data.blockedSites.push(site);
-      chrome.storage.local.set({ blockedSites: data.blockedSites }, () => {
-        renderList(data.blockedSites);
-        siteInput.value = "";
-      });
-    }
-  });
+    chrome.storage.local.get({ blockedSites: [] }, (data) => {
+        if (!data.blockedSites.includes(site)) {
+            data.blockedSites.push(site);
+            chrome.storage.local.set({ blockedSites: data.blockedSites }, () => {
+                renderList(data.blockedSites);
+                siteInput.value = "";
+            });
+        }
+    });
 };
 
 chrome.storage.local.get({ blockedSites: [] }, (data) => {
-  renderList(data.blockedSites);
+    renderList(data.blockedSites);
 });
