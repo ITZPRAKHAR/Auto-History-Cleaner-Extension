@@ -6,6 +6,7 @@ chrome.storage.local.get({ blockedSites: [] }, (data) => {
   blockedSites = data.blockedSites;
 });
 
+
 // Update whenever changed
 chrome.storage.onChanged.addListener((changes) => {
   if (changes.blockedSites) {
